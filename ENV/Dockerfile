@@ -1,6 +1,6 @@
 FROM almalinux:9
 
-ENV APP_NAME=myapp
+ENV APP_NAME=Niharika
 
 
 # Use JSON format for CMD to properly access the environment variable
