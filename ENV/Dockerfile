@@ -1,5 +1,7 @@
 FROM almalinux:9
+
 ENV APP_NAME=myapp
 
-# Print the environment variable
-CMD echo "The application name is $APP_NAME"
+
+# Use JSON format for CMD to properly access the environment variable
+CMD ["sh", "-c", "echo The application name is $APP_NAME"]
