@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN mkdir /app/mini
+RUN mkdir /app
 WORKDIR /app
 CMD ["sleep", "200"]
